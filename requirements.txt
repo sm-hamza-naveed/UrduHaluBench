@@ -1,0 +1,15 @@
+# core
+pandas
+numpy
+pyarrow
+python-dotenv
+
+# API models
+openai
+anthropic
+
+# open models on a GPU (Colab/Kaggle install these in the notebook; only needed locally with an NVIDIA GPU)
+# torch
+# transformers
+# accelerate
+# bitsandbytes
