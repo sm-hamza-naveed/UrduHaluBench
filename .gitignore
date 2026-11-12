@@ -1,0 +1,23 @@
+# --- secrets ---
+.env
+
+# --- source datasets (downloaded and re-created by scripts/01_prepare_data.py) ---
+raw/
+data/paired/
+data/uqa/
+data/legal_uqa/
+data/squad_en/
+
+# --- Python / environments ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*

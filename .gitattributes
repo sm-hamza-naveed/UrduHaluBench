@@ -1,0 +1,7 @@
+# Normalise line endings: text files are stored with LF in the repository
+* text=auto
+
+# Data files are stored byte-for-byte (passages contain line breaks inside quoted fields;
+# converting them would change the data and break reproducibility)
+*.csv  -text
+*.json -text
